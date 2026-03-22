@@ -144,8 +144,8 @@ Tests in `models/staging/schema.yml`:
 Current project status (via `dbt ls`):
 
 1. 3 seeds
-2. 2 models
-3. 3 data tests
+2. 3 models
+3. 8 data tests
 
 ### 3.5 Folder Structure
 
@@ -159,6 +159,7 @@ Current project status (via `dbt ls`):
 │   └── staging/
 │       ├── schema.yml
 │       └── stg_spotify_artists.sql
+|       └── stg_spotify_songs.sql
 ├── seeds/
 │   ├── spotify_alltime_top100_songs.csv
 │   ├── spotify_wrapped_2025_top50_artists.csv
