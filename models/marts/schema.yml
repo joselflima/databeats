@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: dim_artists_by_country
+    description: "Dimension to show total artists, monthly listeners in millions and Grammys linked to the country"
+    columns:
+      - name: artist_country
+        description: "The name of the country"
+        data_tests:
+          - not_null
+          - unique
+
+      - name: total_top_artists
+        description: "Total number of artists on the country"
+
+      - name: total_monthly_listeners_millions
+        description: "Monthly listeners in millions"
+
+      - name: total_grammys
+        description: "Total Grammys earned by the country"
