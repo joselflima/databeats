@@ -1,5 +1,7 @@
 # DataBeats Records Analytics - dbt Core Project
 
+![Project Architecture](image.png)
+
 An Analytics Engineering project built with `dbt Core` to transform public Spotify data into actionable insights for A&R (Artists and Repertoire) decisions at the fictional label DataBeats Records.
 
 ## 1. Context (Business Problem)
